@@ -12,9 +12,14 @@ package exam.codewriting.q4;
 public class Car {
 
 	// Declare your instance variables here:
+	private double milesDriven;
+	private double milesPerGallon;
+	private double maxFuel;
+	private double currentFuel;
 	
 	// Write the constructor for the Car class:
 	// (For full credit the constructor should use only two parameters)
+	public Car (double milesPerGallon, double maxFuel)
 	
 	/**
 	* Drives the car at the given speed for the given amount of time or until out of fuel.
@@ -29,8 +34,8 @@ public class Car {
 	}
 	
 	/**
-	* Adds fuel to the tank as long as it does not exceed the tank’s capacity.
-	* @return portion of fuel that couldn’t be added
+	* Adds fuel to the tank as long as it does not exceed the tankï¿½s capacity.
+	* @return portion of fuel that couldnï¿½t be added
 	*/
 	public double addFuel ( double gallons ) {
 		return 0; //FIXME
